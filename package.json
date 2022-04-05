@@ -1,6 +1,6 @@
 {
-  "name": "turborepo-basic-shared",
-  "version": "0.0.0",
+  "name": "@lyellow/mono",
+  "version": "0.1.0",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -16,25 +16,7 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "turbo": {
-    "pipeline": {
-      "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": [
-          "dist/**",
-          ".next/**"
-        ]
-      },
-      "lint": {
-        "outputs": []
-      },
-      "dev": {
-        "cache": false
-      }
-    }
-  },
+  "packageManager": "yarn@3.2.0",
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"

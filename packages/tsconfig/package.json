@@ -1,8 +1,9 @@
 {
-  "name": "tsconfig",
+  "name": "@lyellow/tsconfig",
   "version": "0.0.0",
   "private": true,
   "main": "index.js",
+  "packageManager": "yarn@3.2.0",
   "files": [
     "base.json",
     "nextjs.json",
